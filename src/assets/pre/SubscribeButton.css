@@ -1,0 +1,11 @@
+/* @import url("./Variables.css"); */
+
+.button-submit--green {
+    background-color: var(--Green) !important;
+    border-color: var(--Green) !important;
+}
+
+.button-submit--green:hover {
+    background-color: var(--Green-on-hover) !important;
+    border-color: var(--Green-on-hover) !important;
+}

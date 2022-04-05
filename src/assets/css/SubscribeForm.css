@@ -1,0 +1,19 @@
+.text--red {
+    color: var(--Red);
+}
+
+.text--grayish-blue {
+    color: var(--Grayish-Blue);
+}
+
+.smaller {
+    font-size: .70rem !important;;
+}
+
+.bg--blue {
+    background-color: var(--Blue);
+}
+
+.shadow-offset-y {
+    box-shadow: rgba(45, 45, 45, 0.238) 0px 8px 0px -1px;
+}

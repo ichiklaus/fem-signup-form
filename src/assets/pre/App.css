@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid black;
+}
+
+/* body {
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: var(--Red) !important;
+} */
+
+@media screen and (min-width: 100px) {
+  body {
+    background-image: url("../images/bg-intro-mobile.png");
+    background-color: var(--Red) !important;
+  }
+
+  .App {
+    padding: 0 0.75rem;
+  }
+
+  .header-text-center {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    background-image: url("../images/bg-intro-mobile.png");
+    background-color: var(--Red) !important;
+  }
+
+  .App {
+    padding: 0 0.75rem;
+  }
+
+  .header-text-center {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: var(--Red) !important;
+  }
+
+  .header-text-center {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: var(--Red) !important;
+  }
+
+  .header-text-align {
+    text-align: left;
+  }
+}

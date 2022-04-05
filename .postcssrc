@@ -1,0 +1,5 @@
+{
+  "plugins": {
+    "css-declaration-sorter": {}
+  }
+}
