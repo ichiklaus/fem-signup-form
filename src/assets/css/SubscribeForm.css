@@ -7,7 +7,7 @@
 }
 
 .smaller {
-    font-size: .70rem !important;;
+    font-size: .75rem !important;;
 }
 
 .bg--blue {
@@ -16,4 +16,20 @@
 
 .shadow-offset-y {
     box-shadow: rgba(45, 45, 45, 0.238) 0px 8px 0px -1px;
+}
+
+.empty-message-wrapper {
+    position: relative;
+}
+
+.empty-message {
+    color: var(--Red);
+    font-style: italic;
+    position: absolute;
+    right: 1%;
+}
+
+.placeholder-red::placeholder {
+    color: var(--Red) !important;
+    font-weight: 500;
 }

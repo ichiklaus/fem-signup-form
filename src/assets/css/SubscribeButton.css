@@ -1,8 +1,9 @@
 /* @import url("./Variables.css"); */
 
-.button-submit--green {
+.button-submit--green, .button-submit--green:focus {
     background-color: var(--Green) !important;
     border-color: var(--Green) !important;
+    box-shadow: none !important;
 }
 
 .button-submit--green:hover {

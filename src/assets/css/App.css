@@ -21,12 +21,16 @@ input[type="password"]:focus {
   border: 1px solid black;
 }
 
+.fs-title {
+  font-size: 3rem !important;
+}
+
 /* body {
   background-image: url("../images/bg-intro-desktop.png");
   background-color: var(--Red) !important;
 } */
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 100px)  and (max-width: 575px){
   body {
     background-color: var(--Red) !important;
     background-image: url("../images/bg-intro-mobile.png");
@@ -36,12 +40,12 @@ input[type="password"]:focus {
     padding: 0 0.75rem;
   }
 
-  .header-text-center {
+  header {
     text-align: center;
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px){
   body {
     background-color: var(--Red) !important;
     background-image: url("../images/bg-intro-mobile.png");
@@ -51,7 +55,7 @@ input[type="password"]:focus {
     padding: 0 0.75rem;
   }
 
-  .header-text-center {
+  header {
     text-align: center;
   }
 }
@@ -63,7 +67,7 @@ input[type="password"]:focus {
   }
 
   .header-text-center {
-    text-align: center;
+    text-align: left;
   }
 }
 
